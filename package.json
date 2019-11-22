@@ -1,14 +1,18 @@
 {
   "name": "egg-axios-plus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于axios插件，适用于egg框架完成基本的http请求，满足async/await操作",
   "eggPlugin": {
     "name": "axios"
   },
   "keywords": [
     "egg",
-    "eggPlugin",
-    "egg-plugin"
+	"eggjs",
+    "egg-axios",
+	"egg-axios-plus",
+	"curl Request",
+	"Http Request",
+	"egg-plugin"
   ],
   "dependencies": {},
   "devDependencies": {
@@ -37,7 +41,10 @@
     "app.js",
     "agent.js",
     "config",
-    "app"
+    "app",
+	"lib",
+	"LICENSE",
+	"assets"
   ],
   "ci": {
     "version": "8, 10"
