@@ -53,6 +53,18 @@ exports.axios = {
 };
 ```
 
+```js
+// {app_root}/config/config.default.js
+exports.axios = {
+    headers: {
+    common: {
+      'Content-Type': 'application/json; charset=UTF-8',
+    },
+  },
+  timeout: 5000,
+};
+```
+
 ## 使用场景
 
 - Why and What: 描述为什么会有这个插件，它主要在完成一件什么事情。
@@ -69,7 +81,7 @@ exports.axios = {
 
 ## 提问交流
 
-请到 [egg issues](https://github.com/eggjs/egg/issues) 异步交流。
+请到 [egg-axios-plus issues](https://github.com/mmdapl/egg-axios-plus/issues) 异步交流。
 
 ## License
 

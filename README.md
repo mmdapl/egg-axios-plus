@@ -10,7 +10,7 @@
 [npm-image]: https://img.shields.io/npm/v/egg-axios-plus.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-axios-plus
 [travis-image]: https://img.shields.io/travis/eggjs/egg-axios-plus.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-axios-plus
+[travis-url]: https://github.com/mmdapl/egg-axios-plus
 [codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-axios-plus.svg?style=flat-square
 [codecov-url]: https://codecov.io/github/eggjs/egg-axios-plus?branch=master
 [david-image]: https://img.shields.io/david/eggjs/egg-axios-plus.svg?style=flat-square
@@ -45,6 +45,12 @@ exports.axios = {
 ```js
 // {app_root}/config/config.default.js
 exports.axios = {
+    headers: {
+    common: {
+      'Content-Type': 'application/json; charset=UTF-8',
+    },
+  },
+  timeout: 5000,
 };
 ```
 
@@ -56,7 +62,7 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/mmdapl/egg-axios-plus).
 
 ## License
 

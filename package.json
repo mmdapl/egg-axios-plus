@@ -1,18 +1,18 @@
 {
   "name": "egg-axios-plus",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "基于axios插件，适用于egg框架完成基本的http请求，满足async/await操作",
   "eggPlugin": {
     "name": "axios"
   },
   "keywords": [
     "egg",
-	"eggjs",
+	  "eggjs",
     "egg-axios",
-	"egg-axios-plus",
-	"curl Request",
-	"Http Request",
-	"egg-plugin"
+	  "egg-axios-plus",
+	  "curl Request",
+	  "Http Request",
+	  "egg-plugin"
   ],
   "dependencies": {},
   "devDependencies": {
@@ -42,21 +42,21 @@
     "agent.js",
     "config",
     "app",
-	"lib",
-	"LICENSE",
-	"assets"
+	  "lib",
+	  "LICENSE",
+	  "node_modules"
   ],
   "ci": {
     "version": "8, 10"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-axios-plus.git"
+    "url": "git+https://github.com/mmdapl/egg-axios-plus/.git"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-axios-plus#readme",
+  "homepage": "https://github.com/mmdapl/egg-axios-plus/#readme",
   "author": "Taylor",
   "license": "MIT"
 }

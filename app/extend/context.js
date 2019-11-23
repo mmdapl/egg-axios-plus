@@ -1,7 +1,8 @@
 'use strict';
 
 module.exports = {
-    get axios() {
-        return this.app.axios;
-    }
+  // get axios method to use by context
+  get axios() {
+    return this.app.axios;
+  },
 };
