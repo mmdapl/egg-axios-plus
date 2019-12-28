@@ -13,4 +13,6 @@ exports.axios = {
     },
   },
   timeout: 5000,
+  app:true,
+  agent:false
 };

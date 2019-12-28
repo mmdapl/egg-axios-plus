@@ -5,12 +5,10 @@
  * @github https://github.com/mmdapl
  */
 
-module.exports = app => {
+module.exports = agent => {
   // Combined with egg framework last configuration, load egg-axios-plus
-  if(app.config.app){
-    require('./lib/axios_loader.js')(app);
+  if(agent.config.agent){
+    require('./lib/axios_loader.js')(agent);
   }
-
-
 };
 

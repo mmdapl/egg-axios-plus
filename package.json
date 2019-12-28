@@ -1,7 +1,7 @@
 {
   "name": "egg-axios-plus",
-  "version": "1.2.1",
-  "description": "基于axios插件，适用于egg框架完成基本的http请求，满足async/await操作",
+  "version": "2.1.0",
+  "description": "基于axios插件，适用于egg框架完成基本的http请求，满足async/await操作,实现egg框架下agent/app挂载,支持后端请求",
   "eggPlugin": {
     "name": "egg-axios-plus"
   },

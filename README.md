@@ -65,7 +65,17 @@ exports.axios = {
     },
   },
   timeout: 5000,
+  app:true,
+  agent:false,
 };
+```
+if you want to use axios in agent or app , you can set config about agent or app ,make them be ture
+
+```javascript
+exports.axios={
+    app:true,
+    agent:true
+}
 ```
 
 see [config/config.default.js](config/config.default.js) for more detail.
