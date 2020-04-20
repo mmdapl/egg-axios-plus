@@ -1,24 +1,29 @@
 {
   "name": "egg-axios-plus",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "基于axios插件，适用于egg框架完成基本的http请求，满足async/await操作,实现egg框架下agent/app挂载,支持后端请求",
   "eggPlugin": {
     "name": "egg-axios-plus"
   },
   "keywords": [
     "egg",
-	  "eggjs",
+    "axios",
+    "eggjs",
     "egg-axios",
-	  "egg-axios-plus",
-	  "curl Request",
-	  "Http Request",
-	  "egg-plugin"
+    "egg-axios-plus",
+    "curl Request",
+    "Http Request",
+    "promise",
+    "egg-plugin"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
     "egg": "^2.16.0",
+    "axios": "^0.19.2",
     "egg-bin": "^4.11.0",
     "egg-ci": "^1.11.0",
     "egg-mock": "^3.21.0",
@@ -38,25 +43,27 @@
     "autod": "autod"
   },
   "files": [
-    "app.js",
-    "agent.js",
-    "config",
     "app",
-	  "lib",
-	  "LICENSE",
-	  "node_modules"
+    "config",
+    "agent.js",
+    "lib",
+    "app.js",
+    "images"
   ],
   "ci": {
     "version": "8, 10"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mmdapl/egg-axios-plus/.git"
+    "url": "https://github.com/mmdapl/egg-axios-plus.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/mmdapl/egg-axios-plus/issues"
   },
   "homepage": "https://github.com/mmdapl/egg-axios-plus/#readme",
   "author": "Taylor",
-  "license": "MIT"
+  "license": "MIT",
+  "__npminstall_done": "Mon Apr 20 2020 14:25:46 GMT+0800 (GMT+08:00)",
+  "_from": "egg-axios-plus@2.1.0",
+  "_resolved": "https://registry.npm.taobao.org/egg-axios-plus/download/egg-axios-plus-2.1.0.tgz"
 }
