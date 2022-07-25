@@ -1,28 +1,11 @@
-/* eslint valid-jsdoc: "off" */
-
 'use strict';
 
 /**
  * @param {Egg.EggAppInfo} appInfo app info
  */
 module.exports = appInfo => {
-  /**
-   * built-in config
-   * @type {Egg.EggAppConfig}
-   **/
-  const config = exports = {};
-
-  // use for cookie sign key, should change to your own and keep security
+  const config = (exports = {});
   config.keys = appInfo.name + '_19980115_520';
-
-  // add your middleware config here
-  config.middleware = [];
-
-  // add your user config here
-  const userConfig = {
-    // myAppName: 'egg',
-  };
-
   // 配置egg-axios-plus
   config.axiosPlus = {
     // can set more config in headers,like token,references and so on
@@ -87,9 +70,5 @@ module.exports = appInfo => {
   //   origin: '*',
   //   allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH',
   // };
-
-  return {
-    ...config,
-    ...userConfig,
-  };
+  return config;
 };

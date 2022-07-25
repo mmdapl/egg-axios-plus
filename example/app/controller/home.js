@@ -11,8 +11,8 @@ class HomeController extends Controller {
       body: ctx.request.body,
       method: ctx.method,
     };
-
   }
+
   // 实现egg-axios-plus的使用
   async test() {
     const { ctx } = this;
@@ -49,7 +49,6 @@ class HomeController extends Controller {
         key: 'put request',
       },
     });
-
     // 输出
     ctx.body = {
       getRequestRes: getRes,
