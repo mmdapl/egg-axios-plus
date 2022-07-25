@@ -1,29 +1,29 @@
 {
   "name": "egg-axios-plus",
   "version": "3.1.2",
-  "description": "基于axios插件，适用于egg框架完成基本的http请求，满足async/await操作,实现egg框架下agent/app挂载,支持后端请求",
+  "description": "适用于egg框架完成基本的http请求，支持async/await操作,实现egg框架下agent/app挂载,支持后端请求",
   "eggPlugin": {
     "name": "axiosPlus"
   },
   "keywords": [
-    "egg",
+    "公众号：Rong阶级好可爱",
     "axios",
-    "eggjs",
     "egg-axios",
     "egg-axios-plus",
+    "egg",
+    "eggjs",
     "curl Request",
     "Http Request",
-    "promise",
     "egg-plugin"
   ],
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.27.2",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
     "egg": "^2.16.0",
-    "axios": "^0.19.2",
     "egg-bin": "^4.11.0",
     "egg-ci": "^1.11.0",
     "egg-mock": "^3.21.0",
