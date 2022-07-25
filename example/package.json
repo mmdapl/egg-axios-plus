@@ -1,14 +1,14 @@
 {
-  "name": "demo",
+  "name": "example",
   "version": "1.0.0",
-  "description": "egg-axios-plus插件在eggjs框架下的使用示例",
+  "description": "egg-axios-plus插件在egg.js框架下的使用示例",
   "private": true,
   "egg": {
     "declarations": true
   },
   "dependencies": {
     "egg": "^2.15.1",
-    "egg-axios-plus": "^3.0.0",
+    "egg-axios-plus": "^3.1.2",
     "egg-scripts": "^2.11.0"
   },
   "devDependencies": {
@@ -40,8 +40,10 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/mmdapl/egg-axios-plus/example"
   },
-  "author": "Taylor",
+  "author": {
+    "name": "公众号：Rong姐姐好可爱"
+  },
   "license": "MIT"
 }
